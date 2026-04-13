@@ -34,7 +34,7 @@ body {
   color: #fff;
 }
 
-.logo-tld { color: #71717a; }
+.logo-tld { color: #7339E6; }
 
 .header-divider {
   width: 1px;
@@ -131,7 +131,7 @@ body {
 .pill-btn + .pill-btn { border-left: 1px solid #e4e4e7; }
 
 .pill-active {
-  background: #18181b;
+  background: #7339E6;
   color: #fff;
 }
 
@@ -168,8 +168,8 @@ body {
 }
 
 .chip-active {
-  background: #18181b;
-  border-color: #18181b;
+  background: #7339E6;
+  border-color: #7339E6;
   color: #fff;
 }
 
@@ -193,20 +193,20 @@ body {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #18181b;
+  background: #7339E6;
   cursor: pointer;
   border: 2px solid #fff;
-  box-shadow: 0 0 0 1px #18181b;
+  box-shadow: 0 0 0 1px #7339E6;
 }
 
 .slider::-moz-range-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #18181b;
+  background: #7339E6;
   cursor: pointer;
   border: 2px solid #fff;
-  box-shadow: 0 0 0 1px #18181b;
+  box-shadow: 0 0 0 1px #7339E6;
 }
 
 .slider-labels {
@@ -241,8 +241,8 @@ body {
 .toggle-pill:hover { border-color: #a1a1aa; color: #18181b; }
 
 .toggle-pill-active {
-  background: #18181b;
-  border-color: #18181b;
+  background: #7339E6;
+  border-color: #7339E6;
   color: #fff;
 }
 
@@ -259,7 +259,7 @@ body {
 
 .dep-bar-fill {
   height: 100%;
-  background: #18181b;
+  background: #7339E6;
   border-radius: 3px;
   transition: width 0.35s ease;
 }
@@ -302,7 +302,7 @@ body {
   transition: border-color 0.12s;
 }
 
-.num-input-wrap:focus-within { border-color: #18181b; }
+.num-input-wrap:focus-within { border-color: #7339E6; }
 
 .num-input-wrap.read-only { background: #f4f4f5; }
 
@@ -443,7 +443,7 @@ body {
 
 .bar-fill {
   height: 100%;
-  background: #fff;
+  background: #a78bfa;
   border-radius: 2px;
   transition: width 0.35s ease;
 }
