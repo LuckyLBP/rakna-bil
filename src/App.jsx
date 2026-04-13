@@ -430,6 +430,13 @@ export default function App() {
               <p>Restvärdet är vad bilen beräknas vara värd när du säljer den. Kalkylatorn beräknar detta automatiskt utifrån drivmedelstyp och ägandetid, men du kan alltid ange ett eget värde.</p>
             </div>
           </div>
+
+          <div className="related-projects">
+            <h2>Relaterade verktyg</h2>
+            <ul className="related-list">
+              <li><a href="https://raknabilresa.se" target="_blank" rel="noopener noreferrer">räknabilresa.se</a> — Beräkna kostnaden för en bilresa</li>
+            </ul>
+          </div>
         </div>
       </footer>
 
