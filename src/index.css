@@ -8,11 +8,3 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-body {
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #F2F4F8;
-  color: #111827;
-  min-height: 100vh;
-  -webkit-font-smoothing: antialiased;
-}
