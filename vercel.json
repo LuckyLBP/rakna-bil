@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.raknabil.se/:path*",
+      "destination": "https://raknabil.se/:path*",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": true
+}

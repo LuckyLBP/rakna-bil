@@ -10,8 +10,9 @@ html, body {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #F0EEF8;
-  color: #1a1a1a;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #F2F4F8;
+  color: #111827;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
