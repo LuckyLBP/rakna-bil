@@ -33,27 +33,26 @@ function getResidualRate(drivmedel, years) {
 
 function NumInput({ value, onChange, unit, min = 0, step }) {
   const [raw, setRaw] = useState(String(value))
-
-  // Keep raw in sync if value changes externally (e.g. drivmedel switch)
-  const strValue = String(value)
-  if (raw !== strValue && parseFloat(raw) !== value) {
-    setRaw(strValue)
-  }
+  const [focused, setFocused] = useState(false)
 
   return (
     <div className="num-input-wrap">
       <input
         type="number"
         className="num-input"
-        value={raw}
+        value={focused ? raw : value}
         min={min}
         step={step}
-        onChange={e => setRaw(e.target.value)}
+        onFocus={() => { setFocused(true); setRaw(String(value)) }}
+        onChange={e => {
+          setRaw(e.target.value)
+          const parsed = parseFloat(e.target.value)
+          if (!isNaN(parsed)) onChange(parsed)
+        }}
         onBlur={() => {
+          setFocused(false)
           const parsed = parseFloat(raw)
-          const next = isNaN(parsed) ? 0 : parsed
-          setRaw(String(next))
-          onChange(next)
+          if (isNaN(parsed)) setRaw(String(value))
         }}
       />
       {unit && <span className="num-input-unit">{unit}</span>}
