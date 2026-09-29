@@ -454,7 +454,14 @@ export default function App() {
       </footer>
 
       <div className="made-by">
-        Skapad för skojs skull av <a href="https://produktionen.se" target="_blank" rel="noopener noreferrer">Produktionen AB</a>
+        <a className="pohlare-badge" href="https://pohlare.com" target="_blank" rel="noopener noreferrer">
+          <img src="/pohlare-avatar.png" alt="" width="40" height="40" />
+          <span className="pohlare-badge-text">
+            <span className="pohlare-badge-label">Skapad av</span>
+            <span className="pohlare-badge-name">din Pohlare</span>
+          </span>
+        </a>
+        <a className="pohlare-email" href="mailto:lucas@pohlare.com">lucas@pohlare.com</a>
       </div>
 
     </div>
